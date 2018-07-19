@@ -10,7 +10,6 @@ Display List of Cars on MapKit and TableView
 
 ## Demo for displaying Cars On MapKit And TableView
 
-https://developer.nytimes.com/
 
 Topic demoestrate in this application
 ---
@@ -19,11 +18,11 @@ Topic demoestrate in this application
 ##### * NetworkLayer and DataLayer
 ##### * Alamofire
 ##### * MVVM
+
 ##  Picture says a thousand words
 ---
 
-![Alt text](https://github.com/amrangry/NYTimes/blob/master/Media/project_demo_gif.gif?raw=true "sample")
-
+![Alt text](https://github.com/amrangry/iCar/blob/master/Media/project_demo_gif.gif?raw=true "sample")
 
 ## Environment
 ---
@@ -58,7 +57,7 @@ to read more about bundler please visit https://bundler.io/
 ## Design Pattern
 ---
 <p align="center">
-  <img src ="https://github.com/amrangry/NYTimes/blob/master/Media/MVVM.png?raw=true"/>
+  <img src ="https://github.com/amrangry/iCar/blob/master/Media/MVVM.png?raw=true"/>
 </p>
 
 ## Contributing 🤘
