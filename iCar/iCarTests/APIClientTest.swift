@@ -26,7 +26,7 @@ class APIClientTest: XCTestCase {
     }
 
     /// This is an example of test case for calling API
-    func testPublicRepositoriesAPICall() {
+    func testCarsAPICall() {
         // given
         weak var expectation = self.expectation(description: "Response Received")
         var responseError: Error?

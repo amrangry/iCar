@@ -12,4 +12,12 @@ enum Cleanliness: String, Codable {
     case clean = "CLEAN"
     case regular = "REGULAR"
     case veryClean = "VERY_CLEAN"
+
+    var displayValue: String {
+        switch self {
+        case .clean: return "clean"
+        case .regular: return "regular"
+        case .veryClean: return "very clean"
+        }
+    }
 }

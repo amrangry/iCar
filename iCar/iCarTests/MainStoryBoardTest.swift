@@ -6,9 +6,8 @@
 //  Copyright © 2018 ADKA. All rights reserved.
 //
 
-import XCTest
-
 @testable import iCar
+import XCTest
 
 class MainStoryBoardTest: XCTestCase {
 
@@ -31,11 +30,45 @@ class MainStoryBoardTest: XCTestCase {
         super.tearDown()
     }
 
-    func testVehiclesListViewController() {
-        let vehiclesListViewController = storyboard?.instantiateViewController(withIdentifier: "VehiclesListViewController")
+    func testVehiclesConatinerViewControllerFromStoryBoard() {
+        let vehiclesConatinerViewController = storyboard?.instantiateViewController(withIdentifier: "VehiclesConatinerViewController")
 
-        XCTAssertNotNil(vehiclesListViewController)
-        //XCTAssertTrue(vehiclesListViewController is VehiclesListViewController)
+        XCTAssertNotNil(vehiclesConatinerViewController)
+        // XCTAssertTrue(vehiclesConatinerViewController is VehiclesConatinerViewController)
     }
 
+    func testVehiclesConatinerViewControllerFromInstantaitedFactoryMethod() {
+        let vehiclesConatinerViewController = VehiclesConatinerViewController.instantiateFromStoryboard()
+
+        XCTAssertNotNil(vehiclesConatinerViewController)
+        XCTAssertTrue(vehiclesConatinerViewController is VehiclesConatinerViewController)
+    }
+
+    func testListDisplayViewControllerFromStoryBoard() {
+        let listDisplayViewController = storyboard?.instantiateViewController(withIdentifier: "ListDisplayViewController")
+
+        XCTAssertNotNil(listDisplayViewController)
+        // XCTAssertTrue(listDisplayViewController is ListDisplayViewController)
+    }
+
+    func testListDisplayViewControllerFromInstantaitedFactoryMethod() {
+        let listDisplayViewController = ListDisplayViewController.instantiateFromStoryboard()
+
+        XCTAssertNotNil(listDisplayViewController)
+        XCTAssertTrue(listDisplayViewController is ListDisplayViewController)
+    }
+
+    func testMapDisplayViewControllerFromStoryBoard() {
+        let mapDisplayViewController = storyboard?.instantiateViewController(withIdentifier: "MapDisplayViewController")
+
+        XCTAssertNotNil(mapDisplayViewController)
+        // XCTAssertTrue(mapDisplayViewController is MapDisplayViewController)
+    }
+
+    func testMapDisplayViewControllerFromInstantaitedFactoryMethod() {
+        let mapDisplayViewController = MapDisplayViewController.instantiateFromStoryboard()
+
+        XCTAssertNotNil(mapDisplayViewController)
+        XCTAssertTrue(mapDisplayViewController is MapDisplayViewController)
+    }
 }

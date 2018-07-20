@@ -43,8 +43,8 @@ class VehiclesTableViewCell: UITableViewCell {
         model.text = vehicle.modelName
         name.text = vehicle.name
         fuel.text = "\(fuel.text ?? "Fuel: ")\(vehicle.fuelType?.rawValue ?? "N/A")"
-        transmation.text = "\(transmation.text ?? "Transmation: ")\(vehicle.transmission?.rawValue ?? "N/A")"
-        cleanliness.text = "\(cleanliness.text ?? "Clean: ")\(vehicle.innerCleanliness?.rawValue.lowercased() ?? "N/A")"
+        transmation.text = "\(transmation.text ?? "Transmation: ")\(vehicle.transmission?.displayValue ?? "N/A")"
+        cleanliness.text = "\(cleanliness.text ?? "Clean: ")\(vehicle.innerCleanliness?.displayValue ?? "N/A")"
         guard let imageURLString = vehicle.carImageURL, let imageURL = URL(string: imageURLString) else {
             return
         }

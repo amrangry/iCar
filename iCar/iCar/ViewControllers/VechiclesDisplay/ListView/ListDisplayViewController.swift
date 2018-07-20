@@ -27,25 +27,14 @@ class ListDisplayViewController: BaseViewController {
         tableView.dataSource = listTableViewDataSource
         listTableViewDataSource.viewModel?.fetchData()
     }
-
-//    override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//        refresh()
-//    }
-//
-//    override func refresh() {
-//        super.refresh()
-//        if tableView != nil {
-//            tableView.reloadData()
-//        }
-//    }
 }
     // MARK: - NavigationRouterProtocol
 extension ListDisplayViewController: NavigationRouterProtocol {
     static func instantiateFromStoryboard() -> BaseViewController {
         let storyboard = Storyboards.Main.instance
-        guard let viewController = storyboard.instantiateViewController(withIdentifier: self.Identity) as? ListDisplayViewController else {
-            assertionFailure("can't instantiate object form storyboard for ListDisplayViewController")
+        let identity = self.Identity
+        guard let viewController = storyboard.instantiateViewController(withIdentifier: identity) as? ListDisplayViewController else {
+//            assertionFailure("can't instantiate object form storyboard for ListDisplayViewController")
             return self.init()
         }
         return viewController

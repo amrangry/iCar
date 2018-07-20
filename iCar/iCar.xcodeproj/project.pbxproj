@@ -13,7 +13,6 @@
 		9D7F2E0220FE6E2300C7E7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7F2E0020FE6E2300C7E7AB /* Main.storyboard */; };
 		9D7F2E0420FE6E2400C7E7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7F2E0320FE6E2400C7E7AB /* Assets.xcassets */; };
 		9D7F2E0720FE6E2400C7E7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7F2E0520FE6E2400C7E7AB /* LaunchScreen.storyboard */; };
-		9D7F2E1220FE6E2500C7E7AB /* iCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2E1120FE6E2500C7E7AB /* iCarTests.swift */; };
 		9D7F2E1D20FE6E2500C7E7AB /* iCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2E1C20FE6E2500C7E7AB /* iCarUITests.swift */; };
 		9D7F2E3920FE6EF500C7E7AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2E2F20FE6EF500C7E7AB /* Constants.swift */; };
 		9D7F2E3A20FE6EF500C7E7AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2E2F20FE6EF500C7E7AB /* Constants.swift */; };
@@ -119,6 +118,9 @@
 		9D7F2EF72100A47200C7E7AB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2EF62100A47200C7E7AB /* ListViewModel.swift */; };
 		9D7F2EF82100A47200C7E7AB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2EF62100A47200C7E7AB /* ListViewModel.swift */; };
 		9D7F2EF92100A47200C7E7AB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2EF62100A47200C7E7AB /* ListViewModel.swift */; };
+		9D7F2EFB2101D16100C7E7AB /* FeulEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2EFA2101D16100C7E7AB /* FeulEnumTest.swift */; };
+		9D7F2EFD2101D24E00C7E7AB /* TransmissionEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2EFC2101D24E00C7E7AB /* TransmissionEnumTest.swift */; };
+		9D7F2EFF2101D2C500C7E7AB /* CleanlinessEnumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2EFE2101D2C500C7E7AB /* CleanlinessEnumTest.swift */; };
 		F7217E5B1DD9E840024DF3BF /* Pods_iCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F494C26545AC0944F376B9E0 /* Pods_iCar.framework */; };
 /* End PBXBuildFile section */
 
@@ -154,7 +156,6 @@
 		9D7F2E0620FE6E2400C7E7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D7F2E0820FE6E2400C7E7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D7F2E0D20FE6E2500C7E7AB /* iCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D7F2E1120FE6E2500C7E7AB /* iCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCarTests.swift; sourceTree = "<group>"; };
 		9D7F2E1320FE6E2500C7E7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D7F2E1820FE6E2500C7E7AB /* iCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7F2E1C20FE6E2500C7E7AB /* iCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCarUITests.swift; sourceTree = "<group>"; };
@@ -197,6 +198,9 @@
 		9D7F2EEB21009E2B00C7E7AB /* NavigationRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouterProtocol.swift; sourceTree = "<group>"; };
 		9D7F2EF121009EFB00C7E7AB /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		9D7F2EF62100A47200C7E7AB /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		9D7F2EFA2101D16100C7E7AB /* FeulEnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeulEnumTest.swift; sourceTree = "<group>"; };
+		9D7F2EFC2101D24E00C7E7AB /* TransmissionEnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransmissionEnumTest.swift; sourceTree = "<group>"; };
+		9D7F2EFE2101D2C500C7E7AB /* CleanlinessEnumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanlinessEnumTest.swift; sourceTree = "<group>"; };
 		AF5FFC0DC197A13BCBC182E7 /* Pods-iCarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCarUITests/Pods-iCarUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F494C26545AC0944F376B9E0 /* Pods_iCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -279,12 +283,14 @@
 		9D7F2E1020FE6E2500C7E7AB /* iCarTests */ = {
 			isa = PBXGroup;
 			children = (
-				9D7F2EC820FF6B0600C7E7AB /* MainStoryBoardTest.swift */,
-				9D7F2EC620FF610C00C7E7AB /* URLFactoryTests.swift */,
-				9D7F2EBB20FF592600C7E7AB /* DataProviderTest.swift */,
-				9D7F2EB920FF58E400C7E7AB /* DataConvertionTest.swift */,
 				9D7F2EB720FF585100C7E7AB /* APIClientTest.swift */,
-				9D7F2E1120FE6E2500C7E7AB /* iCarTests.swift */,
+				9D7F2EFE2101D2C500C7E7AB /* CleanlinessEnumTest.swift */,
+				9D7F2EB920FF58E400C7E7AB /* DataConvertionTest.swift */,
+				9D7F2EBB20FF592600C7E7AB /* DataProviderTest.swift */,
+				9D7F2EFA2101D16100C7E7AB /* FeulEnumTest.swift */,
+				9D7F2EC820FF6B0600C7E7AB /* MainStoryBoardTest.swift */,
+				9D7F2EFC2101D24E00C7E7AB /* TransmissionEnumTest.swift */,
+				9D7F2EC620FF610C00C7E7AB /* URLFactoryTests.swift */,
 				9D7F2E1320FE6E2500C7E7AB /* Info.plist */,
 				9D7F2EC220FF5A2E00C7E7AB /* CarsResponseMockup.json */,
 			);
@@ -760,7 +766,6 @@
 				9D7F2E9E20FF259600C7E7AB /* JSONDecoderable.swift in Sources */,
 				9D7F2EC020FF59EB00C7E7AB /* URLSessionMockup.swift in Sources */,
 				9D7F2EF321009EFB00C7E7AB /* Storyboards.swift in Sources */,
-				9D7F2E1220FE6E2500C7E7AB /* iCarTests.swift in Sources */,
 				9D7F2EC720FF610C00C7E7AB /* URLFactoryTests.swift in Sources */,
 				9D7F2EAE20FF274800C7E7AB /* Transmission.swift in Sources */,
 				9D7F2ED020FF8EBB00C7E7AB /* VehiclesConatinerViewController.swift in Sources */,
@@ -782,7 +787,10 @@
 				9D7F2EC920FF6B0600C7E7AB /* MainStoryBoardTest.swift in Sources */,
 				9D7F2E9B20FF259600C7E7AB /* Displayable.swift in Sources */,
 				9D7F2E8A20FE74A700C7E7AB /* NetworkResult.swift in Sources */,
+				9D7F2EFF2101D2C500C7E7AB /* CleanlinessEnumTest.swift in Sources */,
+				9D7F2EFB2101D16100C7E7AB /* FeulEnumTest.swift in Sources */,
 				9D7F2ECC20FF8E8500C7E7AB /* BaseViewController.swift in Sources */,
+				9D7F2EFD2101D24E00C7E7AB /* TransmissionEnumTest.swift in Sources */,
 				9D7F2ED820FF8F7500C7E7AB /* ListDisplayViewController.swift in Sources */,
 				9D7F2EE020FFA17100C7E7AB /* UIResponder+Extension.swift in Sources */,
 			);

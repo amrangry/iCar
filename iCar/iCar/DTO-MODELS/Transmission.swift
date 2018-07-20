@@ -11,4 +11,11 @@ import Foundation
 enum Transmission: String, Codable {
     case a = "A"
     case m = "M"
+
+    var displayValue: String {
+        switch self {
+        case .a: return "automatic"
+        case .m: return "manual"
+        }
+    }
 }

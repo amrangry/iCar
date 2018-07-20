@@ -86,3 +86,16 @@ class VehiclesConatinerViewController: BaseViewController {
         })
     }
 }
+
+// MARK: - NavigationRouterProtocol
+extension VehiclesConatinerViewController: NavigationRouterProtocol {
+    static func instantiateFromStoryboard() -> BaseViewController {
+        let storyboard = Storyboards.Main.instance
+        let identity = self.Identity
+        guard let viewController = storyboard.instantiateViewController(withIdentifier: identity) as? VehiclesConatinerViewController else {
+            //            assertionFailure("can't instantiate object form storyboard for VehiclesConatinerViewController")
+            return self.init()
+        }
+        return viewController
+    }
+}

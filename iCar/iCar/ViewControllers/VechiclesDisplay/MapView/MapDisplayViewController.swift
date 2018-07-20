@@ -171,7 +171,7 @@ extension MapDisplayViewController: NavigationRouterProtocol {
     static func instantiateFromStoryboard() -> BaseViewController {
         let storyboard = Storyboards.Main.instance
         guard let viewController = storyboard.instantiateViewController(withIdentifier: self.Identity) as? MapDisplayViewController else {
-            assertionFailure("can't instantiate object form storyboard for MapDisplayViewController")
+//            assertionFailure("can't instantiate object form storyboard for MapDisplayViewController")
             return self.init()
         }
         return viewController

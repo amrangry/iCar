@@ -44,12 +44,12 @@ class DataProviderTest: XCTestCase {
 
     /// This is an example of test case for calling API
     /// Fake URLSession with DHURLSession protocol and stubs
-    func testPublicRepositoriesAPICall_ParsesData() {
+    func testCarsAPICall_ParsesData() {
         // given
         weak var expectation = self.expectation(description: "Response Received and parsed correct")
         // when
         XCTAssertEqual(vehiclesViewModelUnderTest.dataSourceObjects.count, 0, "dataSourceObjects should be empty before the data task runs")
-        dataProviderUnderTest.getVehicls { isSuccess, status, result in
+        dataProviderUnderTest.getVehicles { isSuccess, status, result in
             // then
             if isSuccess {
                 guard let result = result as? [Vehicle] else {
@@ -69,6 +69,6 @@ class DataProviderTest: XCTestCase {
         }
 
         // then
-        XCTAssertEqual( vehiclesViewModelUnderTest.dataSourceObjects.count, 30, "Didn't parse 30 items from fake response")
+        XCTAssertEqual( vehiclesViewModelUnderTest.dataSourceObjects.count, 28, "Didn't parse 28 items from fake response")
     }
 }
