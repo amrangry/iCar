@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FD780D09363F2F5AD1A8D3F /* Pods_iCarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A880BA2C49D85A6395613B /* Pods_iCarTests.framework */; };
 		388D11B5A05F368C12D86258 /* Pods_iCarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7F7A43B6993C91DCE38242 /* Pods_iCarUITests.framework */; };
+		9D25333321067E040027D336 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25333221067E040027D336 /* DesignableView.swift */; };
 		9D7F2DFD20FE6E2300C7E7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7F2DFC20FE6E2300C7E7AB /* AppDelegate.swift */; };
 		9D7F2E0220FE6E2300C7E7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7F2E0020FE6E2300C7E7AB /* Main.storyboard */; };
 		9D7F2E0420FE6E2400C7E7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7F2E0320FE6E2400C7E7AB /* Assets.xcassets */; };
@@ -149,6 +150,7 @@
 		2CD886602CECFED12DCD4075 /* Pods-iCarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCarUITests/Pods-iCarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		44315A0A4DD8114E413EFCA9 /* Pods-iCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCar/Pods-iCar.debug.xcconfig"; sourceTree = "<group>"; };
 		83532300C2A0EF41C1AFF3E2 /* Pods-iCarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCarTests/Pods-iCarTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D25333221067E040027D336 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		9D7F2DF920FE6E2300C7E7AB /* iCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7F2DFC20FE6E2300C7E7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D7F2E0120FE6E2300C7E7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -243,6 +245,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9D25333421067E2F0027D336 /* IBDesginable */ = {
+			isa = PBXGroup;
+			children = (
+				9D25333221067E040027D336 /* DesignableView.swift */,
+			);
+			path = IBDesginable;
+			sourceTree = "<group>";
+		};
 		9D7F2DF020FE6E2300C7E7AB = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +319,7 @@
 		9D7F2E2A20FE6E8F00C7E7AB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9D25333421067E2F0027D336 /* IBDesginable */,
 				9D7F2E0520FE6E2400C7E7AB /* LaunchScreen.storyboard */,
 				9D7F2E0020FE6E2300C7E7AB /* Main.storyboard */,
 				9D7F2EE220FFAFF100C7E7AB /* VehiclesTableViewCell.swift */,
@@ -717,6 +728,7 @@
 				9D7F2E4820FE6EF500C7E7AB /* Data+Extension.swift in Sources */,
 				9D7F2E9020FE74EF00C7E7AB /* AppThemeStyle.swift in Sources */,
 				9D7F2E7A20FE74A700C7E7AB /* DataProvider.swift in Sources */,
+				9D25333321067E040027D336 /* DesignableView.swift in Sources */,
 				9D7F2ECB20FF8E8500C7E7AB /* BaseViewController.swift in Sources */,
 				9D7F2EF221009EFB00C7E7AB /* Storyboards.swift in Sources */,
 				9D7F2EA920FF26F100C7E7AB /* Cleanliness.swift in Sources */,

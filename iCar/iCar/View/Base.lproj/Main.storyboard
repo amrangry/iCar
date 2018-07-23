@@ -167,6 +167,24 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="67F-g3-tlK" customClass="DesignableView" customModule="iCar" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="gradientColor1">
+                                                            <color key="value" red="0.0" green="0.6280093267837481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="gradientColor2">
+                                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="point" keyPath="gradientStartPoint">
+                                                            <point key="value" x="0.0" y="0.0"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="point" keyPath="gradientEndPoint">
+                                                            <point key="value" x="1" y="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ktO-AH-vty">
                                                     <rect key="frame" x="15" y="10" width="75" height="50"/>
                                                     <constraints>
@@ -223,7 +241,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="0sm-Im-ACz" firstAttribute="leading" secondItem="fUk-TR-S7W" secondAttribute="leading" id="0q4-Xc-OwL"/>
                                                         <constraint firstItem="rZk-lG-yg4" firstAttribute="width" secondItem="fUk-TR-S7W" secondAttribute="width" multiplier="1:2" id="9Yu-yu-npe"/>
@@ -256,15 +274,19 @@
                                                 <constraint firstItem="gBQ-FT-FbV" firstAttribute="leading" secondItem="fUk-TR-S7W" secondAttribute="trailing" id="AwP-kh-XAh"/>
                                                 <constraint firstAttribute="trailing" secondItem="B5r-hn-lr6" secondAttribute="trailing" id="Egv-MX-GcU"/>
                                                 <constraint firstItem="fUk-TR-S7W" firstAttribute="top" secondItem="ADR-Q3-ScS" secondAttribute="top" id="F8N-im-L00"/>
+                                                <constraint firstItem="67F-g3-tlK" firstAttribute="leading" secondItem="ADR-Q3-ScS" secondAttribute="leading" id="FNu-zR-3RR"/>
+                                                <constraint firstAttribute="trailing" secondItem="67F-g3-tlK" secondAttribute="trailing" id="FQa-m4-kpa"/>
                                                 <constraint firstItem="gBQ-FT-FbV" firstAttribute="centerY" secondItem="ADR-Q3-ScS" secondAttribute="centerY" id="Gcl-cb-CgZ"/>
                                                 <constraint firstItem="fUk-TR-S7W" firstAttribute="leading" secondItem="ktO-AH-vty" secondAttribute="trailing" constant="10" id="Gya-A4-epo"/>
                                                 <constraint firstItem="pCu-bE-Qyc" firstAttribute="centerY" secondItem="ktO-AH-vty" secondAttribute="centerY" id="Oaw-Ob-R8S"/>
                                                 <constraint firstAttribute="trailing" secondItem="gBQ-FT-FbV" secondAttribute="trailing" constant="5" id="TW7-5Z-H5A"/>
                                                 <constraint firstItem="ktO-AH-vty" firstAttribute="leading" secondItem="ADR-Q3-ScS" secondAttribute="leadingMargin" id="Yju-Ba-VGT"/>
+                                                <constraint firstItem="67F-g3-tlK" firstAttribute="top" secondItem="ADR-Q3-ScS" secondAttribute="top" id="Zz8-XU-g1W"/>
                                                 <constraint firstItem="ktO-AH-vty" firstAttribute="top" secondItem="ADR-Q3-ScS" secondAttribute="top" constant="10" id="bk6-1b-yE2"/>
                                                 <constraint firstItem="B5r-hn-lr6" firstAttribute="top" secondItem="fUk-TR-S7W" secondAttribute="bottom" id="dQZ-TQ-eZG"/>
                                                 <constraint firstAttribute="bottom" secondItem="B5r-hn-lr6" secondAttribute="bottom" id="e4X-LQ-zuX"/>
                                                 <constraint firstItem="B5r-hn-lr6" firstAttribute="leading" secondItem="ADR-Q3-ScS" secondAttribute="leading" id="mft-2O-VvK"/>
+                                                <constraint firstAttribute="bottom" secondItem="67F-g3-tlK" secondAttribute="bottom" id="nlq-Tl-ksM"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
